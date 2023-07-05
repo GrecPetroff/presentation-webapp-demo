@@ -2,7 +2,15 @@
 #internship 2023
 
 ### Задача №3 - "Presentation API"
-TBD
+На базе представленного spring boot проекта сделать REST-сервис с следующим функционалом:
+* CRUD операции для Presentation
+  * В случае удаления Presentations - удалить все связанные с ней Slide
+* СRUD операции для Slide
+* POST import/presentation/slides - импорт слайдов из XLSX файла
+  * Пример: в папке `samples` файла `slide-import-data.xlsx`
+  * Каждый раз при импорте создаётся новая презентация
+  * Если слайд уже существует с таким именем - выдавать ошибку и останавливать работу сервиса
+
 
 # Getting Started
 
